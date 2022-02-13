@@ -108,6 +108,7 @@ alias inst="sudo apt install"
 alias search="sudo apt search"
 alias update="sudo apt update && sudo apt upgrade"
 alias src="source ~/.zshrc"
+alias changemac="sudo macchanger -r wlp3s0"
 
 # Navigation
 up() {
