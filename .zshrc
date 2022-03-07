@@ -109,6 +109,7 @@ alias search="sudo apt search"
 alias update="sudo apt update && sudo apt upgrade"
 alias src="source ~/.zshrc"
 alias changemac="sudo macchanger -r wlp3s0"
+alias cht="cht.sh"
 
 # Navigation
 up() {
