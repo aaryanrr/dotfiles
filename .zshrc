@@ -100,6 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# GPG TTY
+export GPG_TTY=$(tty)
+
 # Aliases
 alias cls="clear"
 alias py10="python3.10"
