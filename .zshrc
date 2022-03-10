@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias cls="clear"
-alias py8="python3.8"
+alias py10="python3.10"
 alias docker="sudo docker"
 alias inst="sudo apt install"
 alias search="sudo apt search"
