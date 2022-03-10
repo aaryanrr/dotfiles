@@ -8,6 +8,8 @@ window:
     dynamic_padding:  true
     decoration: none
 
+  opacity: 1
+
 font:
   normal:
     family: Fira Mono
@@ -60,8 +62,6 @@ colors:
   indexed_colors:
     - { index: 16, color: '0xF8BD96' }
     - { index: 17, color: '0xF5E0DC' }
-
-background_opacity: 1
 
 # cursor:
 #   style: Underline
