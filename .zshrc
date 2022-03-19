@@ -105,7 +105,7 @@ export GPG_TTY=$(tty)
 
 # Aliases
 alias cls="clear"
-alias py10="python3.10"
+alias py8="python3.8"
 alias docker="sudo docker"
 alias inst="sudo apt install"
 alias search="sudo apt search"
