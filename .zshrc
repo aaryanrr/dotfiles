@@ -105,11 +105,11 @@ export GPG_TTY=$(tty)
 
 # Aliases
 alias cls="clear"
-alias py8="python3.8"
+alias py10="python3.10"
 alias docker="sudo docker"
-alias inst="sudo apt install"
-alias search="sudo apt search"
-alias update="sudo apt update && sudo apt upgrade"
+alias inst="sudo pacman -S"
+alias search="sudo pacman -Ss"
+alias update="sudo pacman -Syu & yay -Syu"
 alias src="source ~/.zshrc"
 alias changemac="sudo macchanger -r wlp3s0"
 alias cht="cht.sh"
