@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 # GPG TTY
 export GPG_TTY=$(tty)
+export PIPENV_VENV_IN_PROJECT=1
 
 # Aliases
 alias cls="clear"
