@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="cloud"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -107,12 +107,13 @@ export GPG_TTY=$(tty)
 alias cls="clear"
 alias py10="python3.10"
 alias docker="sudo docker"
-alias inst="sudo pacman -S"
-alias search="sudo pacman -Ss"
-alias update="sudo pacman -Syu & yay -Syu"
+alias inst="sudo dnf install"
+alias search="sudo dnf search"
+alias update="sudo dnf update && dnf upgrade"
 alias src="source ~/.zshrc"
 alias changemac="sudo macchanger -r wlp3s0"
 alias cht="cht.sh"
+alias exa="exa -l"
 
 # Navigation
 up() {
