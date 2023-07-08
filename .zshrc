@@ -106,11 +106,11 @@ export PIPENV_VENV_IN_PROJECT=1
 
 # Aliases
 alias cls="clear"
-alias py10="python3.10"
+alias py10="python3.11"
 alias docker="sudo docker"
 alias inst="sudo dnf install"
 alias search="sudo dnf search"
-alias update="sudo dnf update && dnf upgrade"
+alias update="sudo dnf update && sudo dnf upgrade"
 alias src="source ~/.zshrc"
 alias changemac="sudo macchanger -r wlp3s0"
 alias cht="cht.sh"
@@ -133,3 +133,5 @@ up() {
 		echo "Couldn't go up $limit dirs.";
 	fi
 }
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
