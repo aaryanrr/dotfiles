@@ -108,13 +108,12 @@ export PIPENV_VENV_IN_PROJECT=1
 alias cls="clear"
 alias py10="python3.11"
 alias docker="sudo docker"
-alias inst="sudo dnf install"
-alias search="sudo dnf search"
-alias update="sudo dnf update && sudo dnf upgrade"
+alias inst="sudo apt install"
+alias search="sudo apt search"
+alias update="sudo apt update && sudo apt upgrade"
 alias src="source ~/.zshrc"
 alias changemac="sudo macchanger -r wlp3s0"
 alias cht="cht.sh"
-alias exa="exa -l"
 
 # Navigation
 up() {
@@ -134,4 +133,10 @@ up() {
 	fi
 }
 
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+# export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+# Tomatoshell Configuration
+
+alias tomatomd="tomatoshell -t 45 -d 10 -n 4 -f"
+alias tomatosh="tomatoshell -t 30 -d 5 -n 4 -f"
+alias tomatolg="tomatoshell -t 60 -d 15 -n 5 -f"
